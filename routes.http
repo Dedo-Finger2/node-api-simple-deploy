@@ -2,26 +2,26 @@ POST http://localhost:3333/videos
 Content-Type: application/json
 
 {
-    "title": "Título node ATT",
+    "title": "Título especial ATT",
     "description": "Descrição",
     "duration": 100
 }
 
 ###
 
-GET http://localhost:3333/videos?search=node
+GET http://localhost:3333/videos?search=ATT
 
 ###
 
-PUT http://localhost:3333/videos/bae3eb30-8ed8-4c6d-9dce-54d3de55b4ff
+PUT http://localhost:3333/videos/9735f5ff-b681-42f0-8196-c388b2ea685d
 Content-Type: application/json
 
 {
-    "title": "Título ATT",
+    "title": "Título ATT 2",
     "description": "Descrição ATT",
     "duration": 200
 }
 
 ###
 
-DELETE http://localhost:3333/videos/ee7a48ce-7e82-483f-a318-6f09b5e561ab
+DELETE http://localhost:3333/videos/9735f5ff-b681-42f0-8196-c388b2ea685d
