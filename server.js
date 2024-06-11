@@ -48,6 +48,6 @@ server.delete("/videos/:id", async (request, response) => {
   return response.status(200).send();
 });
 
-server.listen({ port: 3333 }, () => {
+server.listen({ port: process.env.PORT ?? 3333 }, () => {
   console.log("🚀 Running...");
 });
